@@ -1,18 +1,24 @@
 {
-  "uuid": "73aa69ed-16e3-4f75-af97-14f3c2a58b79",
-  "shortName": "chronograph-time",
-  "longName": "chronograph-time",
-  "companyName": "Max Beckett",
-  "versionLabel": "1.0",
-  "sdkVersion": "3",
-  "targetPlatforms": ["basalt"],
-  "watchapp": {
-    "watchface": true
-  },
-  "appKeys": {
-    "dummy": 0
-  },
-  "resources": {
-    "media": []
-  }
+    "appKeys": {
+        "dummy": 0
+    },
+    "capabilities": [
+        ""
+    ],
+    "companyName": "Max Beckett",
+    "longName": "chronograph-time",
+    "projectType": "native",
+    "resources": {
+        "media": []
+    },
+    "sdkVersion": "3",
+    "shortName": "chronograph-time",
+    "targetPlatforms": [
+        "basalt"
+    ],
+    "uuid": "73aa69ed-16e3-4f75-af97-14f3c2a58b79",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
 }

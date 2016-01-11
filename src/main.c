@@ -5,6 +5,7 @@ static Layer *bg_layer;
 
 static void bg_draw_proc(Layer *layer, GContext *ctx) {
 	graphics_context_set_fill_color(ctx, GColorBlack);
+  graphics_fill_rect(ctx, GRect(1, 1, 142, 166), 24, GCornersAll);
 }
 
 static void main_window_load() {
@@ -20,7 +21,7 @@ static void main_window_unload() {
 static void init() {
 	window = window_create();
 
-	window_set_background_color(window, GColorDarkGray);
+	window_set_background_color(window, GColorLightGray);
 
 	window_set_window_handlers(window, (WindowHandlers) {
 		.load = main_window_load,
